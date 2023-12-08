@@ -1,6 +1,9 @@
 import React from "react";
 
-type PropsType = { className?: string };
+// type PropsType = { className?: string };
+interface PropsType {
+  className?: string;
+}
 export const Button = (props: PropsType) => {
   return <button className={props.className}></button>;
 };
